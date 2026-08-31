@@ -19,7 +19,6 @@ This repository contains projects I build while learning, experimenting with, an
 ### HTML
 
 * **Personal Portfolio** — A basic portfolio page built with HTML.
-* **Entry Form** — A form demonstrating inputs, radio buttons, checkboxes, labels, and select options.
 
 ### CSS
 
