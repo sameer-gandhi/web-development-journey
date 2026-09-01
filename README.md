@@ -50,10 +50,10 @@ Currently working with:
 
 * HTML5
 * CSS3
+* JavaScript
 
 Coming next:
 
-* JavaScript
 * Frontend frameworks and tools
 * Backend technologies
 * Databases
