@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student-portal</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration</h1>
+        <p>NOTE : Fill all the details carefully</p>
+    </header>
+    <main>
+        <section>Personal details :</section>
+        <br />
+        <form action="/action.php">
+            <input type="text" placeholder="Name ">
+            <br />
+            <input type="text" placeholder="Email ">
+            <br />
+            <input type="password" placeholder="Password">
+            <br />
+            <br />
+            <section>College details</section>
+            <input type="text" placeholder="Course">
+            <br />
+            <input type="text" placeholder="Branch">
+            <br />
+            <input type="text" placeholder="Year">
+            <br />
+            <input type="text" placeholder="Semester">
+            <br />
+            <br />
+            <section>Gender :</section>
+            <label for="101">
+                <input type="radio" value="Male" name="gender" id="101">Male
+            </label>
+            <br />
+            <label for="102">
+                <input type="radio" value="Female" name="gender" id="102">Female
+            </label>
+            <br />
+            <label for="103">
+                <input type="radio" value="Other" name="gender" id="103">Other
+            </label>
+            <br />
+            <br />
+            <section>Select your state</section>
+            <select name="state">
+                <option value="Uttar pradesh">Uttar pradesh</option>
+                <option value="Uttrakhand">Uttrakhand</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+            <br />
+            <br />
+            <section>Select your District :</section>
+            <select name="District">
+                <option value="Muzaffarnagar">Muzaffarnagar</option>
+                <option value="Meerut">Meerut</option>
+                <option value="Shamli">Shamli</option>
+                <option value="Sharanpur">sharanpur</option>
+            </select>
+            <br />
+            <br />
+            <section>Skills :</section>
+            <label for="104">
+                <input type="checkbox" value="C++" name="skills" id="104">C++
+            </label>
+            <br />
+            <label for="105">
+                <input type="checkbox" value="DSA" name="skills" id="105">DSA
+            </label>
+            <br />
+            <label for="106">
+                <input type="checkbox" value="Web development" name="skills" id="106">Web development
+            </label>
+            <br />
+            <label for="107">
+                <input type="checkbox" value="Javascript" name="skills" id="107">javascript
+            </label>
+            <br />
+            <br />
+            <p>NOTE:Click below link to see courses we offered</p>
+            <a href="/student portal/coursepage.html" target="_blank">Click here</a>
+            <br />
+            <br />
+            <textarea name="feedback" id="feedback" placeholder="About yourself"></textarea>
+            <br />
+            <input type="submit" value="submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
