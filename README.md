@@ -19,6 +19,7 @@ This repository contains projects I build while learning, experimenting with, an
 ### HTML
 
 * **Personal Portfolio** — A basic portfolio page built with HTML.
+* **Student Registration Form** — A multi-page student registration website built with HTML, including a registration form, course page, and timetable.
 
 ### CSS
 
