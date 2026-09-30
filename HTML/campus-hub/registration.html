@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Note:-Fill All the details correct and carefully</h1>
+    </header>
+    <main>
+        <form >
+            <div>
+                <h3>Personal details</h3>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <br>
+                <label for="date">DOB:</label>
+                <input type="date" name="date" id="date" placeholder="Date of birth" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <h3>Academics details</h3>
+                <label for="college">College Name:</label>
+                <input type="text" name="college" id="college" placeholder="College or university" required>
+                <br>
+                <label for="course">Course:</label>
+                <input type="text" name="course" id="course" placeholder="Course" required>
+                <br>
+                <label for="branch">Branch:</label>
+                <input type="text" name="branch" id="branch" placeholder="Branch" required>
+                <br>
+                <label for="year">Year:</label>
+                <input type="number" name="year" id="year" placeholder="Year" required>
+                <br>
+                <label for="sem">Semester:</label>
+                <input type="number" name="sem" id="sem" placeholder="semester" required>
+                <br>
+                <label for="roll">Roll no:</label>
+                <input type="number" name="roll" id="roll" placeholder="Roll no.">
+                <br>
+                <label for="cgpa">CGPA:</label>
+                <input type="number" name="cgpa" id="cgpa" placeholder="Current CGPA">
+            </div>
+            <div>
+                <h3>Gender</h3>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" id="custom" value="custom">
+                <label for="custom">Custom</label>
+            </div>
+            <div>
+                <h3>Select your state</h3>
+                <select name="state" required>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Maharastra">Maharastra</option>
+                </select>
+            </div>
+            <div>
+                <h3>Select district</h3>
+                <select name="district" required>
+                    <option value="Muzaffarnagar">Muzaffarnagar</option>
+                    <option value="shamli">Shamli</option>
+                    <option value="Meerut">Meerut</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <textarea name="feedback" placeholder="Submit your feedback"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <a href="courses.html" target="main">click to check courses</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
