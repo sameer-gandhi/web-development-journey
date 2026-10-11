@@ -20,9 +20,11 @@ This repository contains projects I build while learning, experimenting with, an
 
 * **Personal Portfolio** — A basic portfolio page built with HTML.
 * **Student Registration Form** — A multi-page student registration website built with HTML, including a registration form, course page, and timetable.
+* **Campus Hub** — An HTML-based project built to practice structuring web pages.
 
 ### CSS
 
+* **Navbar** — A navigation bar built with HTML and CSS, featuring flexbox layout, styled navigation links, hover effects, and custom typography.
 * **Profile Card** — A card UI built using HTML and CSS with responsive centering and basic styling.
 
 ### JavaScript
