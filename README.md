@@ -25,6 +25,7 @@ This repository contains projects I build while learning, experimenting with, an
 ### CSS
 
 * **Navbar** — A navigation bar built with HTML and CSS, featuring flexbox layout, styled navigation links, hover effects, and custom typography.
+* **Login Form** — Created a login/signup form using HTML and CSS, with text, mobile number, and password inputs, gender selection, a state dropdown, and submit/reset buttons.
 * **Profile Card** — A card UI built using HTML and CSS with responsive centering and basic styling.
 
 ### JavaScript
