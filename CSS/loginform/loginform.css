@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-form</title>
-</head>
-<style>
-    *{
+*{
         padding: 0;
         margin: 0;
         line-height: 2;
@@ -82,32 +74,3 @@
         color: black;
         background-color: rgba(251, 11, 11, 0.637);
     }
-</style>
-<body>
-    <div>
-        <h1 class="heading">Login or SignUp</h1>
-    </div>
-    <form action="action.php" method="post">
-        <p>Your Name:</p>
-        <input type="text" name="username" placeholder="Enter Your name">
-        <p>Mobile no.:</p>
-        <input type="tel" name="mobile" placeholder="Mob no.">
-        <p>password:</p>
-        <input type="password" name="pass" placeholder="Enter password">
-        <p>Gender:</p>
-        <input type="radio" name="gender" id="Male" value="Male">
-        <label for="Male">Male</label>
-        <input type="radio" name="gender" id="Female" value="Female">
-        <label for="Female">Female</label>
-        <input type="radio" name="gender" id="Other" value="Other">
-        <label for="Other">Other</label>
-        <p>Select your State:</p>
-        <select name="state">
-            <option value="Uttar Pradesh">Uttar Pradesh</option>
-            <option value="Uttrakhand">Uttrakhand</option>
-            <option value="delhi">Delhi</option>
-        </select>
-        <p class="buttons"><button type="submit">Log In</button><button type="reset">Reset</button> </p>
-    </form>
-</body>
-</html>
