@@ -20,7 +20,7 @@ This repository contains projects I build while learning, experimenting with, an
 
 * **Personal Portfolio** — A basic portfolio page built with HTML.
 * **Student Registration Form** — A multi-page student registration website built with HTML, including a registration form, course page, and timetable.
-* **Campus Hub** — An HTML-based project built to practice structuring web pages.
+* **Campus Hub** — A multi-page campus website built using HTML, featuring a homepage, course details, faculty information , student registration , and class timetable .
 
 ### CSS
 
